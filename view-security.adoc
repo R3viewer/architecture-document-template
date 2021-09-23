@@ -375,7 +375,7 @@ To simplify the management of authorizations by factorization, one can:
 
 Example of a classic authorization management model:
 
-image::diagrams/roles.svg[Classic role management]
+image::resources/diagrams/roles.svg[Classic role management]
 
 Remember to specify the possible pseudo-users and their roles, for example:
 

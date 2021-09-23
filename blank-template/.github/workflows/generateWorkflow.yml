@@ -1,0 +1,27 @@
+name: 'PDF Generation'
+
+on: 
+  push:
+    branches:
+      - main
+
+jobs:
+  generation:
+    name: Generate PDF
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get build container
+        id: adocbuild
+        uses: tonynv/asciidoctor-action@master
+        with:
+            program: "asciidoctor-pdf -a pdf-theme=resources/themes/adeo-theme.yml -D pdf view-application.adoc && \
+            asciidoctor-pdf -a pdf-theme=resources/themes/adeo-theme.yml -D pdf view-development.adoc && \
+            asciidoctor-pdf -a pdf-theme=resources/themes/adeo-theme.yml -D pdf view-Infrastructure.adoc && \
+            asciidoctor-pdf -a pdf-theme=resources/themes/adeo-theme.yml -D pdf view-security.adoc && \
+            asciidoctor-pdf -a pdf-theme=resources/themes/adeo-theme.yml -D pdf view-sizing.adoc && \
+            asciidoctor-pdf -a pdf-theme=resources/themes/adeo-theme.yml -D pdf glossary.adoc"
+      - name: Upload PDF
+        uses: actions/upload-artifact@v2
+        with:
+          name: imatch-architecture-documents
+          path: pdf

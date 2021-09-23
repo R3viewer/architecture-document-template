@@ -232,7 +232,7 @@ Example 2: AllMyData is made up of several independent microservices (GUI compon
 Example 3: Thanks to the August 03, 20xx derogation, the GUI will be written using an SPA (Single Page Application) technology.
 ====
 
-image::diagrams/general-application-design.svg[General application architecture diagram]
+image::resources/diagrams/general-application-design.svg[General application architecture diagram]
 
 === Detailed application architecture
 
@@ -271,7 +271,7 @@ Expose the application modules in their different zones or domains.
 ====
 Example: module X, Y and Z in the ACCOUNTING domain. Modules A, B in the PERSON domain.
 ====
-image::diagrams/detailed-application-architecture-static.svg[Detailed application architecture diagram (static view)] 
+image::resources/diagrams/detailed-application-architecture-static.svg[Detailed application architecture diagram (static view)] 
 
 === Dynamic view
 
@@ -287,7 +287,7 @@ If the application is complex, propose a global diagram listing
 ====
 Example:
 
-image::diagrams/detailed-application-architecture-dynamic.svg[Detailed application architecture diagram (dynamic view)] 
+image::resources/diagrams/detailed-application-architecture-dynamic.svg[Detailed application architecture diagram (dynamic view)] 
 
 ====
 

@@ -1,11 +1,16 @@
-= Application view
-
+:source-highlighter: coderay
+= Project <project> : Architecture Document : Application View
+:author: Guillaume Perez © Adeo
+:doctype: book
+:toc:
+:toc-placement: preamble
 :sectnumlevels: 4
 :toclevels: 4
 :sectnums: 4
 :toc: left
 :icons: font
-:toc-title: Table of contents
+:toc-title: Table of Content
+:title-logo-image: resources/images/Adeo.png
 
 Last modified: {docdate}
 

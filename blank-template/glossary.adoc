@@ -1,4 +1,11 @@
-= Glossary of terms used
+:source-highlighter: coderay
+= Project <project> : Architecture Document : Glossary
+:author: Guillaume Perez © Adeo
+:doctype: book
+:sectnumlevels: 4
+:sectnums: 4
+:icons: font
+:title-logo-image: resources/images/Adeo.png
 
 WARNING: Please respect the alphabetical order when editing the document
 

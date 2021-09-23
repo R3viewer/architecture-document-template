@@ -734,7 +734,7 @@ Clearly identify the hardware dedicated to the application.
 ====
 Example:
 
-image::diagrams/infrastructure.svg[AllMyData deployment diagram]
+image::resources/diagrams/infrastructure.svg[AllMyData deployment diagram]
 ====
 
 === Versions of infrastructure components
